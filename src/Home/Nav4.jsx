@@ -27,29 +27,29 @@ class Header4 extends React.Component {
           </Menu.Item>
             <SubMenu title="产品与服务">
               <Menu.ItemGroup title="物联设备"  className="pro">
-                <Menu.Item key="setting:1">数据采集</Menu.Item>
-                <Menu.Item key="setting:2">智能控制</Menu.Item>
-                <Menu.Item key="setting:3">物联网网关</Menu.Item>
-                <Menu.Item key="setting:4">边缘计算</Menu.Item>
+                <Menu.Item key="setting:1" className="nav-list">数据采集</Menu.Item>
+                <Menu.Item key="setting:2" className="nav-list">智能控制</Menu.Item>
+                <Menu.Item key="setting:3" className="nav-list">物联网网关</Menu.Item>
+                <Menu.Item key="setting:4" className="nav-list">边缘计算</Menu.Item>
               </Menu.ItemGroup>
               <Menu.ItemGroup title="云平台PaaS"  className="pro">
-                <Menu.Item key="setting:5">物联网设备管理</Menu.Item>
-                <Menu.Item key="setting:6">工业大数据管理</Menu.Item>
-                <Menu.Item key="setting:7">实时大数据分析</Menu.Item>
-                <Menu.Item key="setting:8">模型管理</Menu.Item>
-                <Menu.Item key="setting:9">决策引擎</Menu.Item>
+                <Menu.Item key="setting:5" className="nav-list">物联网设备管理</Menu.Item>
+                <Menu.Item key="setting:6" className="nav-list">工业大数据管理</Menu.Item>
+                <Menu.Item key="setting:7" className="nav-list">实时大数据分析</Menu.Item>
+                <Menu.Item key="setting:8" className="nav-list">模型管理</Menu.Item>
+                <Menu.Item key="setting:9" className="nav-list">决策引擎</Menu.Item>
               </Menu.ItemGroup>
               <Menu.ItemGroup title="云平台SaaS"  className="pro">
-                <Menu.Item key="setting:10">智能污水管网运维平台</Menu.Item>
-                <Menu.Item key="setting:11">智能二次供水泵云</Menu.Item>
+                <Menu.Item key="setting:10" className="nav-list">智能污水管网运维平台</Menu.Item>
+                <Menu.Item key="setting:11" className="nav-list">智能二次供水泵云</Menu.Item>
 
               </Menu.ItemGroup>
               <Menu.ItemGroup title="服务"  className="pro">
-                <Menu.Item key="setting:12">私有云部署</Menu.Item>
-                <Menu.Item key="setting:13">本地部署</Menu.Item>
-                <Menu.Item key="setting:14">数据服务</Menu.Item>
-                <Menu.Item key="setting:15">建模服务</Menu.Item>
-                <Menu.Item key="setting:16">运维服务</Menu.Item>
+                <Menu.Item key="setting:12" className="nav-list">私有云部署</Menu.Item>
+                <Menu.Item key="setting:13" className="nav-list">本地部署</Menu.Item>
+                <Menu.Item key="setting:14" className="nav-list">数据服务</Menu.Item>
+                <Menu.Item key="setting:15" className="nav-list">建模服务</Menu.Item>
+                <Menu.Item key="setting:16" className="nav-list">运维服务</Menu.Item>
               </Menu.ItemGroup>
             </SubMenu>
             <SubMenu title="工业应用">
